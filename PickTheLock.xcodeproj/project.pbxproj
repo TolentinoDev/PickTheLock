@@ -17,6 +17,7 @@
 		6E5A015D2314397A00826F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E5A015B2314397A00826F95 /* LaunchScreen.storyboard */; };
 		6E5A01682314397A00826F95 /* PickTheLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A01672314397A00826F95 /* PickTheLockTests.swift */; };
 		6E5A01732314397A00826F95 /* PickTheLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A01722314397A00826F95 /* PickTheLockUITests.swift */; };
+		6E5A01812314729700826F95 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A01802314729700826F95 /* CGFloatExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6E5A016E2314397A00826F95 /* PickTheLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickTheLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E5A01722314397A00826F95 /* PickTheLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTheLockUITests.swift; sourceTree = "<group>"; };
 		6E5A01742314397A00826F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E5A01802314729700826F95 /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				6E5A014E2314397600826F95 /* GameScene.sks */,
 				6E5A01502314397600826F95 /* Actions.sks */,
 				6E5A01522314397600826F95 /* GameScene.swift */,
+				6E5A01802314729700826F95 /* CGFloatExtension.swift */,
 				6E5A01542314397600826F95 /* GameViewController.swift */,
 				6E5A01562314397600826F95 /* Main.storyboard */,
 				6E5A01592314397A00826F95 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 			files = (
 				6E5A01532314397600826F95 /* GameScene.swift in Sources */,
 				6E5A01552314397600826F95 /* GameViewController.swift in Sources */,
+				6E5A01812314729700826F95 /* CGFloatExtension.swift in Sources */,
 				6E5A014D2314397600826F95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
